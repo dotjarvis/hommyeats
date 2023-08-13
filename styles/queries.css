@@ -1,0 +1,230 @@
+/* ////////////////////////////////// */
+/* SMALLER LAPTOP (1064px) */
+/* ////////////////////////////////// */
+@media (max-width: 66.5em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .grid-columns--2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-columns--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .measurements .grid-columns--2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-columns--4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* HEADER */
+  .header {
+    padding: 0 4.8rem;
+  }
+}
+
+/* ////////////////////////////////// */
+/* LANDSCAPE TABLETS (832px) */
+/* ////////////////////////////////// */
+@media (max-width: 52em) {
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .hero {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  /* //////////////////// */
+  /* FOOTER */
+  /* /////////////////// */
+  .footer-list--1,
+  .main-footer {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.2rem;
+  }
+
+  footer .list--1 {
+    margin-bottom: 2.8rem;
+  }
+
+  .social-media {
+    margin-bottom: 4.8rem;
+  }
+
+  .useful-links {
+    margin-bottom: 4.8rem;
+  }
+
+  .foot-footer {
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+
+  .footer-list--4 {
+    margin-left: 0;
+    font-size: 1.6rem;
+    gap: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  .foot-footer p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+
+/* ////////////////////////////////// */
+/* PORTRAIT TABLETS (648px) */
+/* ////////////////////////////////// */
+@media (max-width: 40.5em) {
+  html {
+    font-size: 53%;
+  }
+
+  .grid-columns--3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-columns--4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* HEADER */
+  .hero-texts h1 {
+    font-size: 3.6rem;
+  }
+
+  .section--categories p {
+    font-size: 1.2rem;
+    padding: 0.2rem 1rem;
+  }
+
+  .section--meals .list-img {
+    max-height: 36rem;
+  }
+
+  .list-img {
+    max-height: 14rem;
+  }
+
+  /* ///////////////////// */
+  /* FOOTER */
+  /* //////////////////// */
+  footer .primary-text {
+    font-size: 1.8rem;
+  }
+
+  .footer-list--1,
+  .main-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe-newLater {
+    margin-bottom: 4.8rem;
+  }
+}
+
+/* ////////////////////////////////// */
+/* SMARTPHONE (440px) */
+/* ////////////////////////////////// */
+@media (max-width: 27.5em) {
+  html {
+    font-size: 50%;
+  }
+
+  section,
+  body {
+    font-size: 1.6rem;
+    overflow-x: hidden;
+  }
+
+  /*  */
+  .section--hero {
+    padding: 18rem 2.4rem;
+  }
+
+  .section--individualMeal {
+    padding: 7.2rem 2.4rem;
+  }
+
+  .section--meals {
+    padding: 7.2rem 2.4rem;
+  }
+
+  .section--categories {
+    padding: 7.2rem 2.4rem;
+  }
+
+  section .container {
+    padding: 4.2rem 0;
+    padding: 0;
+  }
+
+  footer .container {
+    padding: 6.4rem 2.4rem 1.8rem 2.4rem;
+  }
+
+  /* HEADER */
+  .hero-texts h1 {
+    font-size: 3.2rem;
+  }
+
+  .hero-texts p {
+    font-size: 1.8rem;
+  }
+
+  .nav-list {
+    width: 100%;
+  }
+
+  .grid-columns--4 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-columns--5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .measurements .grid-columns--2 {
+    grid-template-columns: 1fr;
+  }
+
+  .selected-meal-details {
+    padding: 0;
+  }
+
+  .selected-meal {
+    max-height: 42rem;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .measurements,
+  .instructions,
+  .supporting-img-text {
+    padding: 0;
+  }
+
+  .instructions {
+    margin-bottom: 3.6rem;
+  }
+
+  .ingredients {
+    padding: 1.8rem 1.2rem 4.8rem 1.2rem;
+  }
+
+  .list-img {
+    max-height: 14rem;
+  }
+
+  .supporting-img-text p {
+    font-size: 1.4rem;
+  }
+}
