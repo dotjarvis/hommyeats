@@ -512,6 +512,7 @@ footer .list-detail {
   background-color: transparent;
   color: #000;
   border: none;
+  outline: none;
   border: 1px solid #999;
   border-right: none;
 }
