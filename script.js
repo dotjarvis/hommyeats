@@ -262,11 +262,14 @@ const handleSubmit = (event) => {
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: new URLSearchParams(formData).toString(),
   })
-    .then(() => alert("Successfully subscribed"))
+    .then(() => {
+      document.querySelector(".success-msg").classList.remove(".hiddden");
+      alert("Submission successful");
+    })
     .catch((error) => alert(error));
   document
     .querySelector(".mail-input")
-    .querySelector(".subscribe-input").value = 0;
+    .querySelector(".subscribe-input").value = "";
 };
 
 document.querySelector(".mail-input").addEventListener("submit", handleSubmit);

@@ -72,7 +72,8 @@
           <div class="hero-texts">
             <h1>Enjoy a wonderful dining experience.</h1>
             <p>Simply but delicious food.</p>
-            <form class="search-area">
+            <form netlify netlify-honeypot="bot-field" class="search-area">
+              <input hidden name="bot-field" />
               <input
                 class="search-input"
                 placeholder="Delicious food dishes"
@@ -169,14 +170,14 @@
               <li><a class="list list--3" href="#section--meals">Meals</a></li>
 
               <li>
-                <a class="list list--3" href="#section--categories"
-                  >Categories</a
-                >
+                <a class="list list--3" href="#section--categories">
+                  Categories
+                </a>
               </li>
               <li>
-                <a class="list list--3" href="mailto:johnsonmakings@gmail.com"
-                  >Mail us</a
-                >
+                <a class="list list--3" href="mailto:johnsonmakings@gmail.com">
+                  Mail us
+                </a>
               </li>
               <li>
                 <a class="list list--3" href="tel:+999 245 08">Contact</a>
@@ -211,6 +212,9 @@
                 />
               </button>
             </form>
+            <p class="success-msg hidden">
+              You successfully joined other 1000+
+            </p>
           </div>
 
           <div class="social-media">
