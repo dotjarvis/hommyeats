@@ -522,6 +522,7 @@ footer .list-detail {
   justify-content: center;
   background-color: #ff4500;
   padding: 1.4rem;
+  border: none;
 }
 
 .sub-logo .svg-icon {
