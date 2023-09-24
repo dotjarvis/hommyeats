@@ -1,5 +1,5 @@
 # Hommyeats
-This project show cases my frontend skills and is part of my portfolio projects. Its a Recipe web app that provides guide to a given meal preparation.
+Hommyeats is a Recipe web app that provides guide to a given meal preparation.
 
 The project was made using HTML5, CSS3 and Vanilla JS
 
